@@ -1,25 +1,25 @@
 class FussyGit < Formula
   desc "Keeps cloned git repositories organised under a configurable root, by remote URL"
   homepage "https://github.com/jmsnll/fussy-git"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jmsnll/fussy-git/releases/download/v0.1.1/fussy-git-aarch64-apple-darwin.tar.xz"
-      sha256 "ea38de2883ca42a5ee04426c335d29e1217180b7c8ac4591635f803a3b52c4ee"
+      url "https://github.com/jmsnll/fussy-git/releases/download/v0.2.0/fussy-git-aarch64-apple-darwin.tar.xz"
+      sha256 "e92bb3df19a90ed6966e9319668ad509bc6f4718a48fc5f1189c337ed9792fc9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jmsnll/fussy-git/releases/download/v0.1.1/fussy-git-x86_64-apple-darwin.tar.xz"
-      sha256 "7bf90b1ec9897ca7585e6779de483c4aca5937495219c36b3926da420fa3407c"
+      url "https://github.com/jmsnll/fussy-git/releases/download/v0.2.0/fussy-git-x86_64-apple-darwin.tar.xz"
+      sha256 "1c21178667a026aa03164fdbd44dbdd805558b8399af44ef8b6c96afa611d612"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jmsnll/fussy-git/releases/download/v0.1.1/fussy-git-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "65bdc50b5aab8f1f516097aaef802c73d839eefac93eada131e6f596ee6974c8"
+      url "https://github.com/jmsnll/fussy-git/releases/download/v0.2.0/fussy-git-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4e0417a32e1f164ea4ddfc4655dd313ce1eb5e8b27c52627ae33b4b5be5f5869"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jmsnll/fussy-git/releases/download/v0.1.1/fussy-git-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8665dc4af0c5730d1793d2dbf8c332acb0c87f05050ca312e87f65ef4c98fb7d"
+      url "https://github.com/jmsnll/fussy-git/releases/download/v0.2.0/fussy-git-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "eb48833f7bcf5e61d2008adef4b47dd0491ea0067c95bbad4f25ca5d84baed89"
     end
   end
   license "MIT"
